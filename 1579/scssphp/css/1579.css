@@ -1,0 +1,38 @@
+.type-1579 .mg-screen {
+  margin: 0px auto; }
+  .type-1579 .mg-screen .title-top {
+    margin: 20px 100px 20px;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; }
+    .type-1579 .mg-screen .title-top h5 {
+      margin: 15px 0 20px; }
+  .type-1579 .mg-screen .information {
+    margin-top: 80px; }
+    .type-1579 .mg-screen .information .col-infor .content {
+      margin-top: 50px; }
+      .type-1579 .mg-screen .information .col-infor .content .text-column {
+        column-count: 2; }
+      .type-1579 .mg-screen .information .col-infor .content .drop-text {
+        font-size: 50px; }
+        .type-1579 .mg-screen .information .col-infor .content .drop-text .drop-text-one {
+          float: left;
+          padding: 24px 8px 0 0;
+          display: block; }
+    .type-1579 .mg-screen .information .col-infor .img-content {
+      width: 1000px;
+      height: 1400px; }
+
+/* Dành cho máy tính bảng */
+@media (max-width: 768px) {
+  .type-1579 .information .col-infor .content {
+    margin-top: -1%; } }
+
+/* Dành cho điện thoại */
+@media (max-width: 480px) {
+  .type-1579 .title-top {
+    margin-left: 5%;
+    width: 90%; }
+    .type-1579 .title-top h5 {
+      font-size: 95%;
+      font-weight: 600; } }

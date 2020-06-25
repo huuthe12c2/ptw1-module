@@ -1,0 +1,77 @@
+$color-bg: #f2efec;
+$color-a: #000;
+$color-a-hover: #a95a43;
+.type-1574{
+    .mar-screen{
+    margin:0px auto;
+    margin-top: 50px;
+    background: $color-bg;
+     width: 1100px; 
+    height: 400px;
+    .more-about{
+        padding: 50px 20px;
+        position: relative;
+        .img-more-about{
+            .img-flaunt{
+                weight:220px;
+                height: 180px;
+                position: absolute;
+                top: 50px;
+                left: 60px;
+            }
+            .img-laura{
+                weight:180px;
+                height: 140px;
+                position: absolute;
+                top: 10px;
+                left: 250px;
+            }
+            .img-women{
+                weight:150px;
+                height: 100px;
+                position: absolute;
+                top: 100px;
+                left: 350px;
+            }
+        }
+    }
+    .conten-more-about{
+        padding: 60px 20px;
+        position: relative;
+        h4{
+
+         font-style:italic;
+         padding-bottom:10px;
+        }
+        a{
+            text-decoration: none;
+            .button-more{
+                color:$color-a;
+            }
+            .fa-right-me{
+                color:$color-a;
+            }
+        }
+        a:hover{
+           .button-more{
+                color:$color-a-hover;
+            } 
+            .fa-right-me{
+                color:$color-a-hover;
+            }
+        }
+    }
+}}
+/* Dành cho máy tính bảng */
+@media all and (max-width: 768px) {
+    .type-1574{
+        background: #a7a099;
+    }
+}
+
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+    .type-1574{
+        background: #e8c5a1;
+    }
+}

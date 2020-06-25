@@ -1,0 +1,108 @@
+$color-border: #000;
+$color-icon: #fff;
+$media-bg: #f31231;
+.type-1564{
+	.navbar-header{
+		.navbar-brand{
+			font-size: 1rem;
+			color: $color-border;
+		}
+
+		.hv-text-main{
+			border-top: 1px solid $color-border;
+			color: $color-border;
+		}
+	}
+	.navbar{
+		margin:0px auto;
+		border-bottom: 2px solid $color-border;
+		padding-right:0;
+		padding-left:0;
+		padding-top:10px;
+		padding-bottom:10px;
+
+		.container-fluid{
+			padding-right:0;
+			padding-left:0;
+			margin-right:0;
+			margin-left:0; 
+
+			.navbar-header{
+			margin-right:-10px;
+				.hv-text:hover{
+					color:$color-border;
+					border-top: 1px solid $color-border;
+						
+				}
+
+				.hv-icon:hover{
+					border-radius:50%;
+					background:$color-border;
+					color:$color-icon;
+				}
+
+				.hv-icon{
+					margin-right:5px;
+					.fa-w{
+						text-align:center;
+						width:30px;
+						height:20px;
+					}
+				}
+			}	
+		}
+	}
+}
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 768px) {
+	.type-1564{
+		div:nth-child(3) a:nth-child(even){
+			font-size: 80%; 
+		}
+		div:nth-child(3) a:nth-child(odd){
+			font-size: 80%; 
+		}
+		div:nth-child(1) a:nth-child(odd){
+			font-size: 80%; 
+		}
+		div:nth-child(1) a:nth-child(even){
+			font-size: 80%; 
+		}
+		div:nth-child(2){
+			width: 15%;	
+		}		
+	}	
+}
+
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+ 	.type-1564{
+		div:nth-child(3) a:nth-child(even){
+			font-size: 75%; 	
+		}
+		div:nth-child(3) a:nth-child(odd){
+			font-size: 75%; 	
+		}
+		div:nth-child(1) a:nth-child(odd){
+			font-size: 75%; 
+		}
+		div:nth-child(1) a:nth-child(even){
+			font-size: 75%; 
+		}
+		div:nth-child(2){
+			width: 30%;
+			margin-left: 37%;
+			padding: 2% 0;	
+		}
+		div:nth-child(3){
+			margin-left: 8%;	
+		}	
+		div:nth-child(1){
+			margin-left: 12%;
+		}	
+	}	
+}
+
+
+

@@ -1,0 +1,65 @@
+.type-1564 .navbar-header .navbar-brand {
+  font-size: 1rem;
+  color: #000; }
+.type-1564 .navbar-header .hv-text-main {
+  border-top: 1px solid #000;
+  color: #000; }
+.type-1564 .navbar {
+  margin: 0px auto;
+  border-bottom: 2px solid #000;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .type-1564 .navbar .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0; }
+    .type-1564 .navbar .container-fluid .navbar-header {
+      margin-right: -10px; }
+      .type-1564 .navbar .container-fluid .navbar-header .hv-text:hover {
+        color: #000;
+        border-top: 1px solid #000; }
+      .type-1564 .navbar .container-fluid .navbar-header .hv-icon:hover {
+        border-radius: 50%;
+        background: #000;
+        color: #fff; }
+      .type-1564 .navbar .container-fluid .navbar-header .hv-icon {
+        margin-right: 5px; }
+        .type-1564 .navbar .container-fluid .navbar-header .hv-icon .fa-w {
+          text-align: center;
+          width: 30px;
+          height: 20px; }
+
+/* Dành cho máy tính bảng */
+@media (max-width: 768px) {
+  .type-1564 div:nth-child(3) a:nth-child(even) {
+    font-size: 80%; }
+  .type-1564 div:nth-child(3) a:nth-child(odd) {
+    font-size: 80%; }
+  .type-1564 div:nth-child(1) a:nth-child(odd) {
+    font-size: 80%; }
+  .type-1564 div:nth-child(1) a:nth-child(even) {
+    font-size: 80%; }
+  .type-1564 div:nth-child(2) {
+    width: 15%; } }
+
+/* Dành cho điện thoại */
+@media (max-width: 480px) {
+  .type-1564 div:nth-child(3) a:nth-child(even) {
+    font-size: 75%; }
+  .type-1564 div:nth-child(3) a:nth-child(odd) {
+    font-size: 75%; }
+  .type-1564 div:nth-child(1) a:nth-child(odd) {
+    font-size: 75%; }
+  .type-1564 div:nth-child(1) a:nth-child(even) {
+    font-size: 75%; }
+  .type-1564 div:nth-child(2) {
+    width: 30%;
+    margin-left: 37%;
+    padding: 2% 0; }
+  .type-1564 div:nth-child(3) {
+    margin-left: 8%; }
+  .type-1564 div:nth-child(1) {
+    margin-left: 12%; } }

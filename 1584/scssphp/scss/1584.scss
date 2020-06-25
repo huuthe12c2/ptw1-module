@@ -1,0 +1,57 @@
+.type-1584{    
+    .mg-screen{
+        width: 900px;
+        height: 700px;
+        margin: 0px auto;
+        .img-sp{
+            .img-title1 {
+                text-align:center;
+            }
+            .img-title2 {
+                text-align:center;
+            }
+        }
+        .tick-sp{
+            margin-top:50px;
+            .elemen-container{
+                ul {list-style: none;}
+            }
+        }
+    }
+}
+/* Dành cho máy tính bảng */
+@media all and (max-width: 768px) {
+    .type-1584{
+       margin-left: -3%;
+    }
+}
+
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+    .type-1584{
+        .infor-img{
+                font-size: 200%;
+            }
+        .img-title1{
+            img{
+                width: 80%;
+                height:90%;
+                margin-top: 5%;
+            }
+
+        }
+        .img-title2{
+            img{
+                width: 80%;
+                height:90%;
+                margin-top: 5%;
+            }
+        }
+        .tick-sp{
+            text-align: center;
+            font-size:200%
+        }
+    }      
+}
+
+
