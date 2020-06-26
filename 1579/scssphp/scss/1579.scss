@@ -1,68 +1,61 @@
 $color-border: #000;
-.type-1579{
-    .mg-screen{
-        margin:0px auto;
-        .title-top{
+.type-1579 {
+    .mg-screen {
+        margin: 0px auto;
+        .title-top {
             margin: 20px 100px 20px;
-            text-align:center;
+            text-align: center;
             border-top: 1px solid $color-border;
             border-bottom: 1px solid $color-border;
-            h5{
-                margin:15px 0 20px;
+            h5 {
+                margin: 15px 0 20px;
             }
-        }  
-        .information{
-            margin-top:80px;
-            .col-infor{
-                .content{
-                    margin-top:50px;
-                    .text-column{
-                        column-count: 2;
-                    }
-                    .drop-text{         
-                        font-size: 50px;              
-                        .drop-text-one{
-                          float: left;
-                            padding: 24px 8px 0 0;
-                            display: block;
-                            
-                        }
-                    }
+        }
+        .information {
+            margin-top: 80px;
+            .content {
+                margin-top: 50px;
+                .text-column {
+                    column-count: 2;
                 }
-                .img-content{
-                    width: 1000px;
-                    height: 1400px;
+                .drop-text {
+                   
+                    .drop-text-one {
+                        font-size: 50px;
+                        float: left;
+                        display: block;
+                       margin: -15px 0;
+                       padding-right: 10px;   
+                    }
                 }
             }
         }
     }
 }
 
-    /* Dành cho máy tính bảng */
-    @media all and (max-width: 768px) {
-        .type-1579{
-           .information{
-                .col-infor{
-                    .content{
-                        margin-top:-1%;
-                    }
+/* Dành cho máy tính bảng */
+@media all and (max-width: 768px) {
+    .type-1579 {
+        .information {
+            .col-infor {
+                .content {
+                    margin-top: -1%;
                 }
             }
         }
     }
+}
 
-    /* Dành cho điện thoại */
-    @media all and (max-width: 480px) {
-        .type-1579{
-            .title-top{
-                h5{
-                    font-size: 95%;
-                    font-weight: 600;
-                }
-                margin-left: 5%;
-                width: 90%;
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+    .type-1579 {
+        .title-top {
+            h5 {
+                font-size: 95%;
+                font-weight: 600;
             }
-        }      
+            margin-left: 5%;
+            width: 90%;
+        }
     }
-
-
+}

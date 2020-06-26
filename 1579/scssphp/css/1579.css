@@ -9,19 +9,16 @@
       margin: 15px 0 20px; }
   .type-1579 .mg-screen .information {
     margin-top: 80px; }
-    .type-1579 .mg-screen .information .col-infor .content {
+    .type-1579 .mg-screen .information .content {
       margin-top: 50px; }
-      .type-1579 .mg-screen .information .col-infor .content .text-column {
+      .type-1579 .mg-screen .information .content .text-column {
         column-count: 2; }
-      .type-1579 .mg-screen .information .col-infor .content .drop-text {
-        font-size: 50px; }
-        .type-1579 .mg-screen .information .col-infor .content .drop-text .drop-text-one {
+        .type-1579 .mg-screen .information .content .drop-text .drop-text-one {
+          font-size: 50px;
           float: left;
-          padding: 24px 8px 0 0;
-          display: block; }
-    .type-1579 .mg-screen .information .col-infor .img-content {
-      width: 1000px;
-      height: 1400px; }
+          display: block;
+          margin: -15px 0;
+          padding-right: 10px; }
 
 /* Dành cho máy tính bảng */
 @media (max-width: 768px) {

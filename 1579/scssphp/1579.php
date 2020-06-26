@@ -17,7 +17,7 @@ $style = $scss->compile($sass);
 file_put_contents("css/1579.css", $style);
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
     <head>
         <title>1579</title>
         <meta charset="UTF-8">
